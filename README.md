@@ -24,4 +24,4 @@ UML Diagram:
 ![VPUMLD]()
 
 Sample Output:
-![VPOP](https://github.com/DarylTManampan/Visitor-Pattern/blob/main/VPOP.png)
+![VPOP](https://github.com/DarylTManampan/Visitor-Pattern/blob/main/VPOP(1).png)
