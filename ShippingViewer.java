@@ -15,16 +15,16 @@ public class ShippingViewer {
         //Local
 
         System.out.println("Local Shipping Costs:");
-        System.out.println("Chair: " + local.calculateCost(chair) + " pesos\n");
-        System.out.println("Sofa: " + local.calculateCost(sofa) + " pesos\n");
-        System.out.println("Table: " + local.calculateCost(table) + " pesos\n");
-        System.out.println("Cabinet: " + local.calculateCost(cabinet) + " pesos\n");
+        System.out.println("Chair: " + local.calculateCost(chair) + " pesos");
+        System.out.println("Sofa: " + local.calculateCost(sofa) + " pesos");
+        System.out.println("Table: " + local.calculateCost(table) + " pesos");
+        System.out.println("Cabinet: " + local.calculateCost(cabinet) + " pesos");
 
         //Distance
 
         System.out.println("\nDistance Shipping Costs:");
-        System.out.println("Chair: " + distance.calculateCost(chair) + " pesos\n");
-        System.out.println("Sofa: " + distance.calculateCost(sofa) + " pesos\n");
-        System.out.println("Cabinet: " + distance.calculateCost(cabinet) + " pesos\n");
+        System.out.println("Chair: " + distance.calculateCost(chair) + " pesos");
+        System.out.println("Sofa: " + distance.calculateCost(sofa) + " pesos");
+        System.out.println("Cabinet: " + distance.calculateCost(cabinet) + " pesos");
     }
 }
