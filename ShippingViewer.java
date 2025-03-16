@@ -10,22 +10,21 @@ public class ShippingViewer {
 
         //Display
 
-        
         System.out.println("\nFurniture Shippng Fees\n");
 
         //Local
 
         System.out.println("Local Shipping Costs:");
-        System.out.printf("Chair: " + local.calculateCost(chair) + " pesos\n");
-        System.out.printf("Sofa: " + local.calculateCost(sofa) + " pesos\n");
-        System.out.printf("Table: " + local.calculateCost(table) + " pesos\n");
-        System.out.printf("Cabinet: " + local.calculateCost(cabinet) + " pesos\n");
+        System.out.println("Chair: " + local.calculateCost(chair) + " pesos\n");
+        System.out.println("Sofa: " + local.calculateCost(sofa) + " pesos\n");
+        System.out.println("Table: " + local.calculateCost(table) + " pesos\n");
+        System.out.println("Cabinet: " + local.calculateCost(cabinet) + " pesos\n");
 
         //Distance
 
         System.out.println("\nDistance Shipping Costs:");
-        System.out.printf("Chair: " + distance.calculateCost(chair) + " pesos\n");
-        System.out.printf("Sofa: " + distance.calculateCost(sofa) + " pesos\n");
-        System.out.printf("Cabinet: " + distance.calculateCost(cabinet) + " pesos\n");
+        System.out.println("Chair: " + distance.calculateCost(chair) + " pesos\n");
+        System.out.println("Sofa: " + distance.calculateCost(sofa) + " pesos\n");
+        System.out.println("Cabinet: " + distance.calculateCost(cabinet) + " pesos\n");
     }
 }
