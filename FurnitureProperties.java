@@ -23,4 +23,8 @@ public class FurnitureProperties implements Furniture {
     public double getSize() {
         return size;
     }
+
+    @Override
+    public void accept(ShippingCalculator furniture) {
+    }
 }

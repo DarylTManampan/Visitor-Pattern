@@ -1,5 +1,6 @@
 public interface Furniture {
-    String getType();
-    double getWeight();
-    double getSize();
+    public void accept(ShippingCalculator furniture);
+    public String getType();
+    public double getWeight();
+    public double getSize();
 }
